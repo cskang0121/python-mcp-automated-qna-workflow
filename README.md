@@ -4,7 +4,7 @@
 
 **Repository**: https://github.com/cskang0121/python-mcp-automated-qna-workflow
 
-## 🎯 Project Overview
+## Project Overview
 
 This is an open-source learning project for understanding **Model Context Protocol (MCP)** - the protocol that enables AI assistants like Claude to interact with external systems and data sources.
 
