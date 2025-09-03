@@ -4,8 +4,6 @@
 # Python MCP Automated Q&A Workflow
 > An open source hands-on learning project for Model Context Protocol (MCP). Build two MCP servers that enable Claude Desktop to automatically answer customer questions by searching context in relevant documentation and managing Q&A workflows through Google Sheets setup.
 
-**Repository**: https://github.com/cskang0121/python-mcp-automated-qna-workflow
-
 ## Project Overview
 
 This is an open-source learning project for understanding **Model Context Protocol (MCP)** - the protocol that enables AI assistants like Claude to interact with external systems and data sources.
