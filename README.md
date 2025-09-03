@@ -22,10 +22,10 @@ This is an open-source learning project for understanding **Model Context Protoc
 
 ### Traditional Solutions Fall Short
 
-**Static FAQs and Chatbots:** Rigid, hard to maintain, poor user experience
-**Knowledge Bases:** Great for storage, but require customers to search and find answers themselves  
-**Help Desk Software:** Organizes tickets but doesn't reduce the manual work
-**Simple AI Chatbots:** Often give wrong answers because they lack access to current business data
+- **Static FAQs and Chatbots:** Rigid, hard to maintain, poor user experience
+- **Knowledge Bases:** Great for storage, but require customers to search and find answers themselves  
+- **Help Desk Software:** Organizes tickets but doesn't reduce the manual work
+- **Simple AI Chatbots:** Often give wrong answers because they lack access to current business data
 
 ### The MCP Advantage
 
