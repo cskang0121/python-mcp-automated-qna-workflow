@@ -58,7 +58,7 @@ This project demonstrates how MCP can automate repetitive customer support by:
 
 ### How It Works
 
-<img width="389" height="432" alt="Screenshot 2025-09-03 at 10 17 00 PM" src="https://github.com/user-attachments/assets/36d3b318-d1fd-4771-a4f1-483234e33d6c" />
+<img width="801" height="405" alt="Screenshot 2025-09-03 at 10 23 03 PM" src="https://github.com/user-attachments/assets/ed4f607f-68f1-46b7-b709-690c33af9381" />
 
 **Workflow:**
 1. User questions arrive in Google Sheet
@@ -187,7 +187,7 @@ python src/server.py
 
 ## 💡 Usage Examples
 
-<img width="396" height="438" alt="Screenshot 2025-09-03 at 10 01 21 PM" src="https://github.com/user-attachments/assets/7099b4f2-b99e-411e-abbe-fcd2f55c765b" />
+<img width="389" height="432" alt="Screenshot 2025-09-03 at 10 17 00 PM" src="https://github.com/user-attachments/assets/36d3b318-d1fd-4771-a4f1-483234e33d6c" />
 
 ### Scenario 1: Questions Answerable from Documentation
 1. **Business Owner**: "Claude, check the unanswered questions in the sheet"
