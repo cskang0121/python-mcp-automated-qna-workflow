@@ -1,0 +1,36 @@
+{
+  "comment": "This is an example configuration file for Claude Desktop MCP servers",
+  "instructions": [
+    "Copy this file to the appropriate location for your OS:",
+    "macOS: ~/Library/Application Support/Claude/claude_desktop_config.json",
+    "Windows: %APPDATA%\\Claude\\claude_desktop_config.json",
+    "Linux: ~/.config/Claude/claude_desktop_config.json",
+    "",
+    "Then replace the placeholder values below with your actual paths"
+  ],
+  "mcpServers": {
+    "knowledge-base": {
+      "command": "/YOUR/PROJECT/PATH/python-model-context-protocol/.venv/bin/python",
+      "args": [
+        "/YOUR/PROJECT/PATH/python-model-context-protocol/knowledge_base_mcp/src/server.py"
+      ]
+    },
+    "google-sheets": {
+      "command": "/YOUR/PROJECT/PATH/python-model-context-protocol/.venv/bin/python",
+      "args": [
+        "/YOUR/PROJECT/PATH/python-model-context-protocol/google_sheets_mcp/src/server.py"
+      ],
+      "env": {
+        "GOOGLE_SHEETS_ID": "YOUR-GOOGLE-SHEET-ID-HERE",
+        "GOOGLE_CREDENTIALS_PATH": "/YOUR/PROJECT/PATH/python-model-context-protocol/google_sheets_mcp/google-credentials.json"
+      }
+    }
+  },
+  "notes": {
+    "command": "Must point to the Python executable in your virtual environment",
+    "args": "Must use absolute paths to the server.py files",
+    "GOOGLE_SHEETS_ID": "Find this in your Google Sheet URL between /d/ and /edit",
+    "GOOGLE_CREDENTIALS_PATH": "Absolute path to your downloaded service account JSON file",
+    "restart": "After saving this config, completely restart Claude Desktop for changes to take effect"
+  }
+}

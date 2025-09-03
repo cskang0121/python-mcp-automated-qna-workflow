@@ -1,0 +1,56 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+
+# Virtual environments
+*.egg-info/
+dist/
+build/
+*.egg
+
+# uv
+.venv/
+uv.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Google credentials
+google-credentials.json
+token.json
+credentials.json
+client_secret*.json
+
+# MCP
+*.log
+*.pid
+
+# Testing
+.coverage
+.pytest_cache/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# Project specific
+knowledge_base_mcp/data/private/
+google_sheets_mcp/tokens/

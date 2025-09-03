@@ -1,0 +1,44 @@
+# Refund Policy
+
+## 30-Day Money-Back Guarantee
+
+We offer a 30-day money-back guarantee for all new customers. If you're not satisfied with our service within the first 30 days, we'll refund your payment in full.
+
+## Eligibility
+
+To be eligible for a refund:
+- Request must be made within 30 days of initial purchase
+- This is your first subscription with us
+- Account must not violate our Terms of Service
+
+## How to Request a Refund
+
+1. Email support@example.com with subject "Refund Request"
+2. Include your account email and reason for cancellation
+3. We'll process your refund within 5-7 business days
+
+## Partial Refunds
+
+We do not offer partial refunds for:
+- Unused time in billing period
+- Downgrading plans
+- Feature-specific dissatisfaction
+
+## Processing Time
+
+- Credit card refunds: 5-7 business days
+- PayPal refunds: 3-5 business days
+- Wire transfer refunds: 10-15 business days
+
+## Exceptions
+
+Refunds are not available for:
+- Accounts terminated for Terms of Service violations
+- Subscriptions older than 30 days
+- Custom enterprise agreements (governed by separate terms)
+
+## Contact
+
+For refund inquiries:
+- Email: billing@example.com
+- Phone: 1-800-EXAMPLE (Mon-Fri, 9 AM - 5 PM EST)

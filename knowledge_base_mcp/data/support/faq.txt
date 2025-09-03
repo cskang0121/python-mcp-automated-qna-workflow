@@ -1,0 +1,48 @@
+# Frequently Asked Questions
+
+## Account Management
+
+Q: How do I reset my password?
+A: Click the "Forgot Password" link on the login page. Enter your email address, and we'll send you a password reset link.
+
+Q: Can I change my email address?
+A: Yes, go to Account Settings > Profile and click "Change Email". You'll need to verify the new email address.
+
+Q: How do I cancel my subscription?
+A: Go to Account Settings > Billing and click "Cancel Subscription". Your access will continue until the end of the billing period.
+
+## Technical Issues
+
+Q: The system is running slowly. What should I do?
+A: Try these steps:
+1. Clear your browser cache
+2. Check your internet connection
+3. Try a different browser
+4. If issues persist, contact support
+
+Q: I'm getting an error message. What does it mean?
+A: Common error codes:
+- Error 401: Authentication failed - try logging in again
+- Error 403: Access denied - check your subscription plan
+- Error 500: Server error - please wait and try again
+
+Q: Which browsers are supported?
+A: We support the latest versions of:
+- Chrome
+- Firefox
+- Safari
+- Edge
+
+## Billing Questions
+
+Q: When will I be charged?
+A: After your 30-day free trial ends, you'll be charged on the same date each month.
+
+Q: Can I get a refund?
+A: Yes, we offer a 30-day money-back guarantee for new customers. See our refund policy for details.
+
+Q: Do you offer discounts?
+A: Yes! We offer discounts for:
+- Annual billing (20% off)
+- Non-profits (30% off)
+- Educational institutions (40% off)
