@@ -18,31 +18,8 @@ Businesses spend countless hours answering repetitive customer questions on foru
 
 ### How It Works
 
-```
-┌─────────────────┐
-│  Claude Desktop │  (MCP Client)
-│       (AI)      │
-└────────┬────────┘
-         │
-    ┌────┴────┐
-    │         │
-┌───▼───┐ ┌──▼──────────────┐
-│Google │ │ Knowledge Base  │
-│Sheets │ │   MCP Server    │
-│ MCP   │ │                 │
-│Server │ │ Serves local    │
-│       │ │ documentation   │
-└───┬───┘ └──────┬───────────┘
-    │            │
-┌───▼───────────▼───┐
-│   Data Sources    │
-├───────────────────┤
-│• Google Sheet     │
-│  (Q&A Queue)      │
-│• Text Documents   │
-│  (Product Docs)   │
-└───────────────────┘
-```
+<img width="793" height="385" alt="Screenshot 2025-09-03 at 9 30 45 PM" src="https://github.com/user-attachments/assets/2acf6815-a63a-4bd2-a405-110ccf8c0013" />
+
 **Workflow:**
 1. User questions arrive in Google Sheet
 2. AI reads questions via Google Sheets MCP server
@@ -56,21 +33,21 @@ Businesses spend countless hours answering repetitive customer questions on foru
 python-mcp-automated-qna-workflow/
 ├── google_sheets_mcp/          # Google Sheets integration server
 │   ├── src/                    # Server source code
-│   ├── pyproject.toml         # Dependencies and configuration
-│   └── README.md              # Server-specific documentation
+│   ├── pyproject.toml          # Dependencies and configuration
+│   └── README.md               # Server-specific documentation
 │
 ├── knowledge_base_mcp/         # Local document server
 │   ├── src/                    # Server source code
 │   ├── data/                   # Sample documentation included
-│   │   ├── products/          # pricing.txt (plans & costs)
-│   │   ├── support/           # faq.txt (common questions)
-│   │   └── policies/          # refund-policy.txt (terms)
-│   ├── pyproject.toml         # Dependencies and configuration
-│   └── README.md              # Server-specific documentation
+│   │   ├── products/           # pricing.txt (plans & costs)
+│   │   ├── support/            # faq.txt (common questions)
+│   │   └── policies/           # refund-policy.txt (terms)
+│   ├── pyproject.toml          # Dependencies and configuration
+│   └── README.md               # Server-specific documentation
 │
 ├── business_scenarios/         # Sample files and demos
-│   ├── sample-workflow.md     # Example Q&A workflow
-│   └── sample-questions.csv   # 10 test questions for Google Sheets
+│   ├── sample-workflow.md      # Example Q&A workflow
+│   └── sample-questions.csv    # 10 test questions for Google Sheets
 │
 └── claude_desktop_config.example.json  # Template for Claude Desktop setup
 ```
@@ -170,6 +147,8 @@ python src/server.py
 
 ## 💡 Usage Examples
 
+<img width="411" height="448" alt="Screenshot 2025-09-03 at 9 32 09 PM" src="https://github.com/user-attachments/assets/3cd60373-c63a-42f7-a73d-f12c1048fc70" />
+
 ### Scenario 1: Questions Answerable from Documentation
 1. **Business Owner**: "Claude, check the unanswered questions in the sheet"
 2. **Claude**: *Reads questions from Google Sheet via MCP*
@@ -238,9 +217,9 @@ MIT License - Use freely for learning and teaching
 - [x] Documentation created
 - [x] Knowledge Base MCP server implementation
 - [x] Google Sheets MCP server implementation
-- [ ] Claude Desktop integration
-- [ ] Example workflows tested
-- [ ] Google Sheets authentication setup
+- [x] Claude Desktop integration
+- [x] Example workflows tested
+- [x] Google Sheets authentication setup
 
 ## 🎯 Common Challenges & Solutions
 
