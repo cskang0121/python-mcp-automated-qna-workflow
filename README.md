@@ -187,7 +187,7 @@ python src/server.py
 
 ## 💡 Usage Examples
 
-<img width="397" height="430" alt="Screenshot 2025-09-03 at 9 37 26 PM" src="https://github.com/user-attachments/assets/a37d4ef6-599d-4791-b63a-859ee3233617" />
+<img width="396" height="438" alt="Screenshot 2025-09-03 at 10 01 21 PM" src="https://github.com/user-attachments/assets/7099b4f2-b99e-411e-abbe-fcd2f55c765b" />
 
 ### Scenario 1: Questions Answerable from Documentation
 1. **Business Owner**: "Claude, check the unanswered questions in the sheet"
