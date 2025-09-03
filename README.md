@@ -147,7 +147,7 @@ python src/server.py
 
 ## 💡 Usage Examples
 
-<img width="411" height="448" alt="Screenshot 2025-09-03 at 9 32 09 PM" src="https://github.com/user-attachments/assets/3cd60373-c63a-42f7-a73d-f12c1048fc70" />
+<img width="397" height="430" alt="Screenshot 2025-09-03 at 9 37 26 PM" src="https://github.com/user-attachments/assets/a37d4ef6-599d-4791-b63a-859ee3233617" />
 
 ### Scenario 1: Questions Answerable from Documentation
 1. **Business Owner**: "Claude, check the unanswered questions in the sheet"
@@ -164,6 +164,14 @@ python src/server.py
 1. **Claude**: "Question Q004 asks about student discounts, but I don't find specific information"
 2. **Business Owner**: "We offer 40% off for students. Post this answer: 'Yes, students get 40% off with valid .edu email'"
 3. **Claude**: *Posts the custom answer to the sheet*
+
+### Outcome of Automated Question & Answering
+
+**BEFORE**
+<img width="1435" height="131" alt="Screenshot 2025-09-03 at 9 40 37 PM" src="https://github.com/user-attachments/assets/80cec98f-79ea-40b7-85e9-11dac652490c" />
+
+**AFTER**
+<img width="1421" height="318" alt="Screenshot 2025-09-03 at 9 40 08 PM" src="https://github.com/user-attachments/assets/acfedbd0-0956-4102-8a7d-ab410a835794" />
 
 See `business_scenarios/sample-workflow.md` for detailed workflow examples.
 
