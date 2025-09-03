@@ -8,9 +8,45 @@
 
 This is an open-source learning project for understanding **Model Context Protocol (MCP)** - the protocol that enables AI assistants like Claude to interact with external systems and data sources.
 
+## 🎯 The Problem We're Solving
+
+### The Customer Support Challenge
+
+**Every business faces the same challenge:** Support teams spend 60-80% of their time answering the same questions repeatedly. This leads to:
+
+- **Burnout and inefficiency** - Support agents answering "How do I reset my password?" for the 50th time today
+- **Inconsistent responses** - Different agents giving slightly different answers to the same question
+- **Scaling bottlenecks** - As your business grows, support costs grow linearly (or worse)
+- **Knowledge silos** - Important information trapped in documents, wikis, and people's heads
+- **Response delays** - Customers waiting hours or days for answers to simple questions
+
+### Traditional Solutions Fall Short
+
+**Static FAQs and Chatbots:** Rigid, hard to maintain, poor user experience
+**Knowledge Bases:** Great for storage, but require customers to search and find answers themselves  
+**Help Desk Software:** Organizes tickets but doesn't reduce the manual work
+**Simple AI Chatbots:** Often give wrong answers because they lack access to current business data
+
+### The MCP Advantage
+
+This project demonstrates a **human-AI collaboration approach** where:
+
+✅ **AI handles the repetitive work** - Searches documentation, drafts consistent answers
+✅ **Humans provide oversight** - Review, approve, and handle complex cases  
+✅ **Real-time data access** - AI reads from live Google Sheets and current documentation
+✅ **Continuous learning** - Easy to update knowledge base as business evolves
+✅ **Cost-effective scaling** - Handle 10x more questions without hiring 10x more people
+
+### Target Users
+
+- **Small to medium businesses** looking to scale support efficiently
+- **Support teams** overwhelmed with repetitive questions  
+- **Developers** wanting to learn Model Context Protocol (MCP)
+- **Anyone** managing Q&A workflows across teams
+
 ### The Business Problem We're Solving
 
-Businesses spend countless hours answering repetitive customer questions on forums and support channels. This project demonstrates how MCP can automate this process by:
+This project demonstrates how MCP can automate repetitive customer support by:
 
 1. **Connecting AI to multiple data sources** (Google Sheets + local documentation)
 2. **Automating repetitive Q&A** while maintaining human oversight
