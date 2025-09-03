@@ -32,9 +32,13 @@ This is an open-source learning project for understanding **Model Context Protoc
 This project demonstrates a **human-AI collaboration approach** where:
 
 ✅ **AI handles the repetitive work** - Searches documentation, drafts consistent answers
+
 ✅ **Humans provide oversight** - Review, approve, and handle complex cases  
+
 ✅ **Real-time data access** - AI reads from live Google Sheets and current documentation
+
 ✅ **Continuous learning** - Easy to update knowledge base as business evolves
+
 ✅ **Cost-effective scaling** - Handle 10x more questions without hiring 10x more people
 
 ### Target Users
