@@ -58,7 +58,7 @@ This project demonstrates how MCP can automate repetitive customer support by:
 
 ### How It Works
 
-<img width="801" height="405" alt="Screenshot 2025-09-03 at 10 23 03 PM" src="https://github.com/user-attachments/assets/ed4f607f-68f1-46b7-b709-690c33af9381" />
+<img width="754" height="377" alt="Screenshot 2025-09-04 at 10 33 32 AM" src="https://github.com/user-attachments/assets/68177a36-f3cb-419f-bb56-88e224b31c1b" />
 
 **Workflow:**
 1. User questions arrive in Google Sheet
